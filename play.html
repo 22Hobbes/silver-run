@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Silver Run | Voyage and Required Readings</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#172d31;background:#eee9dc;line-height:1.6}*{box-sizing:border-box}body{margin:0}.shell{max-width:1160px;margin:auto;padding:18px}header,.reading-card{background:#fffaf0;border:1px solid #c9d9cf;border-radius:12px;padding:24px}header{margin-bottom:12px;border-top:6px solid #d5a064}h1,h2,h3{font-family:Georgia,serif;line-height:1.2}h1{margin:0 0 10px;font-size:2rem}h2{font-size:1.6rem}h3{font-size:1.2rem}.progress{font-weight:700;color:#24565a;margin-bottom:0}iframe{display:block;width:100%;border:0;min-height:900px;background:#eee9dc}button,.quiz-link{font:inherit;border:0;border-radius:6px;padding:12px 18px;cursor:pointer}button.primary,.quiz-link{display:inline-block;background:#185255;color:#fff;text-decoration:none;font-weight:700}button:disabled{cursor:default;opacity:.65}.choices{display:grid;gap:10px;margin:18px 0}.choice{text-align:left;background:#e4efeb;color:#172d31;border:1px solid #aac6ba}.choice:hover{background:#d4e8df}.choice[aria-pressed="true"]{outline:3px solid #347772}.reading-card{max-width:850px;margin:18px auto}.reading-card p{font-size:1.05rem}.feedback{background:#f5ead7;border-left:4px solid #b16c3f;padding:12px}.code{font:700 1.6rem ui-monospace,monospace;letter-spacing:.06em;overflow-wrap:anywhere}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.eyebrow{text-transform:uppercase;font-size:.8rem;letter-spacing:.1em;font-weight:750;color:#8a4028}[hidden]{display:none!important}:focus-visible{outline:3px solid #b16c3f;outline-offset:4px}@media(max-width:600px){.shell{padding:8px}header,.reading-card{padding:18px}h1{font-size:1.65rem}}
+</style></head><body>
+<div class="shell"><header><h1>Silver Run</h1><p>Complete the full voyage, including the Manila trade and Cádiz purchasing-power decisions. Then read all seven sections and answer their checks to receive the Canvas quiz password.</p><p class="progress" id="progress" aria-live="polite">Step 1 of 3 · Complete the voyage</p></header>
+<iframe id="game" src="./index.html" title="Silver Run voyage game"></iframe>
+<main id="readings" hidden aria-label="Required historical readings"></main></div>
+<noscript>Enable JavaScript to play Silver Run and complete the reading checks.</noscript>
+<script id="required-readings" type="application/json">[{"heading": "From the Andes to the Caribbean", "body": "The Spanish colonial <em>mita<\/em> required designated Indigenous communities to supply labor for shifts at the Potosí mines. The silver moved by mule to the Pacific coast and by ship to Panama City. Before there was a canal, the isthmus divided the Pacific and Caribbean legs. The Camino Real carried royal cargo overland to Portobelo. The Camino de Cruces was a different crossing. Goods went by land to Venta de Cruces, down the Chagres River by boat, and along the Caribbean coast to Portobelo.", "extra": [["A global trade built by people", "Your fictional chests followed an Andean route to Europe. Some American silver traveled west through Manila into Asian markets. Indigenous labor at the mines, muleteers, boat crews, port workers, officers, and merchants all made these circuits possible."]], "question": "How did the colonial mita support silver mining?", "choices": ["Indigenous communities supplied workers for periods of mine service.", "The Crown paid merchants to build new ocean routes.", "Spanish guilds trained every miner as a voluntary apprentice."], "correct": 0, "hint": "Look for who had to provide labor and how the obligation worked."}, {"heading": "Two fleets and one Atlantic crossing", "body": "The New Spain fleet served Veracruz. The Tierra Firme fleet served Cartagena and Portobelo. The fleets could join at Havana for the voyage to Spain. Armed escorts protected the convoy against raiders. The <em>Urca de Lima<\/em>, a storeship in the 1715 convoy, carried private chests of silver and trade goods such as vanilla and chocolate. Private commerce traveled under the same protection as royal revenue.", "extra": [], "question": "Why did ships carrying private goods travel with the treasure fleets?", "choices": ["Private merchants owned every armed escort in the Spanish Empire.", "Convoy protection served both private commerce and royal revenue.", "The Crown required private goods to be unloaded before leaving Havana."], "correct": 1, "hint": "Review what the Urca de Lima carried and whose cargo the escorts protected."}, {"heading": "Seville regulated trade while Cádiz handled the fleets", "body": "The Crown founded the <em>Casa de la Contratación<\/em>, or House of Trade, in Seville in 1503. It licensed voyages and passengers, registered cargo, and supervised navigation and royal revenue. Cádiz had become the official head of American fleet traffic in 1680. The House of Trade itself moved from Seville to Cádiz in 1717.", "extra": [["Why go to Cádiz if the office was in Seville?", "The head of the fleet trade moved to Cádiz in 1680. The <em>Casa de la Contratación<\/em> formally moved from Seville to Cádiz in 1717. The two dates explain the apparent contradiction. Veracruz and the mainland ports supplied distinct convoy routes that converged at Havana. The House of Trade’s registers made routes, cargo, taxes, and responsibility visible to the Crown."]], "question": "Why could a fleet sail to Cádiz in 1715 while the House of Trade remained in Seville?", "choices": ["Cádiz was an Asian port supplied through Manila.", "The House of Trade had already moved to Cádiz in 1503.", "The fleet port shifted before the administrative office moved in 1717."], "correct": 2, "hint": "Separate the location of the ships from the location of the office."}, {"heading": "Manila and Chinese demand", "body": "Silver from mines in New Spain, including Zacatecas, went to Acapulco. Galleons carried it across the Pacific to Manila in the Philippines. Chinese merchants brought silk and porcelain to Manila and carried silver back to China. During the late Ming, silver was increasingly used for taxes and large transactions. That demand helped sustain the trade into the Qing era. The return galleons took Asian goods to Acapulco. Some stayed in the Americas, and some crossed Mexico to Veracruz and continued to Europe.", "extra": [], "question": "What sustained Chinese demand for American silver?", "choices": ["Its increasing use for taxes and large transactions.", "A Chinese ban on manufacturing silk and porcelain.", "A Spanish requirement that Chinese merchants settle in Mexico."], "correct": 0, "hint": "Look at what people in China used silver to pay."}, {"heading": "Silver and the European Price Revolution", "body": "During the 1500s and early 1600s, prices rose across much of Europe. This sustained rise is called the <strong>Price Revolution<\/strong>. American silver added to the money in circulation and helped fuel inflation. Prices in parts of Europe were already rising before large American shipments arrived. Population growth also put pressure on food supplies and prices. When prices rise faster than pay, a worker’s pay buys less.", "extra": [], "question": "If prices rise faster than a worker’s pay, what happens to purchasing power?", "choices": ["The worker can buy more because the coins contain silver.", "The worker can buy fewer goods with that pay.", "The worker can buy the same goods whenever the wage rises at all."], "correct": 1, "hint": "Compare the change in pay with the change in the prices of goods."}, {"heading": "The dangers of the crossing", "body": "In 1715 a hurricane hit the Spanish treasure fleet off Florida. Wind blowing toward shore drove ships into shallow water where some grounded or broke apart. Naval escorts could deter attackers but could not protect ships from the same storm. An attacker seeking a prize could fire at a ship’s rigging to slow it and then board it. An intact ship, its cargo, guns, and stores could all be valuable.", "extra": [["The 1715 record", "The historical convoy did sail in late July. NOAA gives July 27 for departure. The National Park Service lesson gives July 24. On July 31 a hurricane struck off Florida. Most of the ships sank or went ashore, with heavy loss of life. The <em>Urca de Lima<\/em> grounded. Its stores fed survivors, Havana sent help, and Spanish salvagers and English freebooters sought the cargo. The <em>Griffon<\/em> was a French merchant ship. Your encounter, chests, and shipboard decisions were fictional."], ["Why a convoy could still fail", "Escorts and a common sailing plan helped against opportunistic raiders. A hurricane could expose all ships in the same area. Dividing cargo protected against a single hull’s loss, but the protection was limited when one storm hit several ships. Waiting was costly and could improve or worsen a real voyage. In this simulation a two-week wait misses the July 31 hurricane, while later rough weather remains possible."], ["Why seize a ship?", "In the two fictional combat encounters, the raiders wanted a ship, its cargo, or both. A warning shot could force a surrender. Damaging the rigging could slow a vessel enough to board it. The escorts had a different job. They had to decide whether taking or retaking one vessel was worth exposing the rest of the convoy."]], "question": "Why did armed escorts fail to prevent the 1715 disaster?", "choices": ["The escorts were responsible only for Pacific voyages.", "The fleet was carrying only goods owned by private merchants.", "The hurricane threatened ships regardless of their protection against raiders."], "correct": 2, "hint": "The danger described here was shared by ships in the same waters."}, {"heading": "Disease below decks", "body": "Sailors on long voyages lived in crowded quarters and relied on preserved foods such as hard biscuit and salted meat. Supplies of fresh produce could run out. A diet deficient in vitamin C can cause scurvy, which could kill sailors. The English sailor Edward Barlow recorded deaths from scurvy aboard the <em>Delight<\/em> on a long voyage in 1683. The death of an officer or other crew member in this game is fictional.", "extra": [], "question": "Which statement distinguishes the game from the historical record?", "choices": ["Your crew’s particular casualty is fictional, while documented voyages show that disease could kill sailors.", "Every simulated officer death reproduces an identified death aboard the real 1715 fleet.", "A fictional outcome proves that disease was unimportant on actual voyages."], "correct": 0, "hint": "Separate your randomly drawn crew outcome from the evidence about life at sea."}]</script>
+<script>
+'use strict';
+(() => {
+  const readings = JSON.parse(document.getElementById('required-readings').textContent);
+  const frame = document.getElementById('game');
+  const mount = document.getElementById('readings');
+  const progress = document.getElementById('progress');
+  const quizUrl = 'https://hcpss.instructure.com/courses/300162/quizzes/1052260';
+  let voyageDone = false;
+  let manilaDone = false;
+  let pricesDone = false;
+  let readingIndex = 0;
+  let selected = null;
+  const completed = new Set();
+  const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+
+  function focusReading() {
+    mount.querySelector('h2').focus({preventScroll:true});
+    mount.scrollIntoView({block:'start'});
+  }
+
+  function renderReading() {
+    if (!voyageDone) return;
+    frame.hidden = true;
+    mount.hidden = false;
+    if (completed.size === readings.length && readingIndex === readings.length) {
+      progress.textContent = 'Step 3 of 3 · Voyage and all seven reading checks complete';
+      mount.innerHTML = `<section class="reading-card"><p class="eyebrow">Ready for Canvas</p><h2 tabindex="-1">Your quiz password</h2><p>You completed the full voyage, both trade exercises, and all seven required reading checks.</p><p class="code">MANILA-SILVER-1715</p><p>Record the password exactly, including the hyphens. Each student should take the 15-question formative quiz independently.</p><div class="actions"><a class="quiz-link" href="${quizUrl}" target="_blank" rel="noopener">Open the Canvas quiz</a><button type="button" data-reading-action="review">Review the readings</button></div></section>`;
+      focusReading();
+      return;
+    }
+    const reading = readings[readingIndex];
+    const passed = completed.has(readingIndex);
+    progress.textContent = `Step 2 of 3 · Reading ${readingIndex + 1} of ${readings.length} · ${completed.size} checks complete`;
+    mount.innerHTML = `<article class="reading-card"><p class="eyebrow">Required reading ${readingIndex + 1} of ${readings.length}</p><h2 tabindex="-1">${escapeHtml(reading.heading)}</h2><p>${reading.body}</p>${reading.extra.map(([heading,body])=>`<section><h3>${escapeHtml(heading)}</h3><p>${body}</p></section>`).join('')}<h3>Check your reading</h3><p>${escapeHtml(reading.question)}</p><div class="choices">${reading.choices.map((choice,index)=>`<button type="button" class="choice" data-reading-action="answer" data-answer="${index}" aria-pressed="${selected===index}" ${passed?'disabled':''}>${escapeHtml(choice)}</button>`).join('')}</div><div aria-live="polite">${passed?'<p class="feedback">Reading check complete. Continue when everyone in your crew has finished the passage.</p>':selected!==null?`<p class="feedback">Read the passage again and try another answer. ${escapeHtml(reading.hint)}</p>`:''}</div><div class="actions">${readingIndex>0?'<button type="button" data-reading-action="back">Previous reading</button>':''}<button type="button" class="primary" data-reading-action="next" ${passed?'':'disabled'}>${readingIndex===readings.length-1?'Finish readings and reveal password':'Continue to next reading'}</button></div></article>`;
+    focusReading();
+  }
+
+  mount.addEventListener('click', event => {
+    const button = event.target.closest('button[data-reading-action]');
+    if (!button || !voyageDone) return;
+    const action = button.dataset.readingAction;
+    if (action === 'review' && completed.size === readings.length) {
+      readingIndex = 0;
+      selected = null;
+    } else if (action === 'answer' && readingIndex < readings.length && !completed.has(readingIndex)) {
+      const answer = Number(button.dataset.answer);
+      if (!Number.isInteger(answer) || answer < 0 || answer >= readings[readingIndex].choices.length) return;
+      selected = answer;
+      if (answer === readings[readingIndex].correct) completed.add(readingIndex);
+    } else if (action === 'next' && completed.has(readingIndex)) {
+      readingIndex += 1;
+      selected = null;
+    } else if (action === 'back' && readingIndex > 0 && readingIndex < readings.length) {
+      readingIndex -= 1;
+      selected = null;
+    } else {
+      return;
+    }
+    renderReading();
+  });
+
+  frame.addEventListener('load', () => {
+    const doc = frame.contentDocument;
+    const gameMount = doc && doc.getElementById('voyage');
+    if (!gameMount) {
+      progress.textContent = 'The game could not load. Reload this page or ask your teacher for help.';
+      return;
+    }
+    voyageDone = false;
+    manilaDone = false;
+    pricesDone = false;
+    readingIndex = 0;
+    selected = null;
+    completed.clear();
+    mount.hidden = true;
+    frame.hidden = false;
+    progress.textContent = 'Step 1 of 3 · Complete the voyage';
+    const observeGame = () => {
+      frame.style.height = `${Math.max(900,(doc.querySelector(".shell")?.scrollHeight || doc.body.scrollHeight) + 40)}px`;
+      const title = gameMount.querySelector('#page-title')?.textContent;
+      const passedCheckpoint = gameMount.querySelector('#checkpoint-feedback h2')?.textContent === 'Your result';
+      if (title === 'An offer in Manila' && passedCheckpoint) manilaDone = true;
+      if (title === 'What does your silver buy?' && passedCheckpoint) pricesDone = true;
+      const finalRating = gameMount.querySelector('.final-rating');
+      const decisions = gameMount.querySelectorAll('details.log ol > li').length;
+      if (finalRating && decisions === 9 && manilaDone && pricesDone && !voyageDone) {
+        voyageDone = true;
+        progress.textContent = 'Step 1 complete · Continue to the required historical readings';
+        mount.hidden = false;
+        mount.innerHTML = '<section class="reading-card"><h2 tabindex="-1">Voyage complete</h2><p>You have reached Cádiz and completed both trade exercises. Finish the seven historical readings and their checks to unlock the quiz password.</p><button type="button" class="primary" id="begin-readings">Begin required readings</button></section>';
+        document.getElementById('begin-readings').addEventListener('click',renderReading,{once:true});
+        mount.scrollIntoView({block:'start'});
+      }
+    };
+    gameMount.addEventListener('click', event => {
+      const action = event.target.closest('button[data-action]')?.dataset.action;
+      if (action === 'start' || action === 'replay' || action === 'brief') {
+        voyageDone = false;
+        manilaDone = false;
+        pricesDone = false;
+        completed.clear();
+        readingIndex = 0;
+        selected = null;
+        mount.hidden = true;
+        progress.textContent = 'Step 1 of 3 · Complete the voyage';
+      }
+    },true);
+    new MutationObserver(observeGame).observe(gameMount,{childList:true,subtree:true});
+    doc.querySelectorAll('img').forEach(img=>img.addEventListener('load',observeGame,{once:true}));
+    observeGame();
+  });
+})();
+</script></body></html>
